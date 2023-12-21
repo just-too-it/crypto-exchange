@@ -23,7 +23,7 @@ export const Select: FC<SelectProps> = ({ options, amountExchange, defaultCurren
   const [opened, setOpened] = useState(false);
   const [selectedCurrency, setSelectedCurrency] = useState<CurrencyResponse | null>(defaultCurrency || null);
   const [query, setQuery] = useState('');
-  const [filtered, setFiltered] = useState<CurrencyResponse[]>(options);
+  const [filtered, setFiltered] = useState<CurrencyResponse[]>(options || []);
   const refSelector = useRef() as React.MutableRefObject<HTMLDivElement>;
   const dispatch = useAppDispatch();
 
