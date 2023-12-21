@@ -1,0 +1,27 @@
+@import '../../../styles/helpers/variables';
+
+.label {
+    font-size: 1rem;
+    line-height: 143.75%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    @media (width <=$breakpoint-xs) {
+        width: 100%;
+    }
+}
+
+.input {
+    width: 45.187rem;
+    height: 3.125rem;
+    border-radius: 0.3125rem;
+    border: 1px solid $color-grey;
+    background: $color-grey-bg;
+    padding: 0.875rem 1rem;
+    outline: none;
+
+    @media (width <=$breakpoint-xs) {
+        width: 100%;
+    }
+}

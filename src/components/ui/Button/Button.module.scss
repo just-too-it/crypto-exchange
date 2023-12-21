@@ -1,0 +1,32 @@
+@import '../../../styles/helpers/variables';
+
+.button {
+    width: 12.812rem;
+    height: 3.125rem;
+    padding: 0.937rem;
+    border-radius: 0.312rem;
+    border: none;
+    color: $font-color-white;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 120%;
+    letter-spacing: 0.48px;
+    background-color: $color-blue;
+    cursor: pointer;
+
+    &:hover {
+        background: $color-dark-blue;
+    }
+
+    &:active {
+        background: $color-blue;
+    }
+
+    &:disabled {
+        cursor: auto;
+
+        &:hover {
+            background-color: $color-blue;
+        }
+    }
+}

@@ -1,0 +1,76 @@
+@import '../../styles/helpers/variables';
+
+.title {
+    font-size: 3.125rem;
+    font-weight: 300;
+    line-height: 120%;
+    margin-bottom: 1rem;
+
+    @media (width <=$breakpoint-xs) {
+        font-size: 2.5rem;
+        margin-bottom: 0.875rem;
+    }
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    line-height: 100%;
+    margin-bottom: 3.75rem;
+}
+
+// .selectors {
+//     display: flex;
+//     justify-content: space-between;
+//     margin-bottom: 2rem;
+
+//     @media (width <=$breakpoint-xs) {
+//         flex-direction: column;
+//         align-items: end;
+//         margin-bottom: 3rem;
+//         gap: 1rem;
+//     }
+// }
+
+// .sending {
+//     display: flex;
+//     justify-content: space-between;
+//     flex-wrap: wrap;
+//     align-items: end;
+//     gap: 1rem;
+
+//     @media (width <=$breakpoint-xs) {
+//         & button {
+//             width: 100%;
+//         }
+//     }
+// }
+
+// .error {
+//     color: $color-red;
+//     line-height: 143.75%;
+//     margin-top: -0.5rem;
+//     text-align: end;
+//     display: inline-block;
+//     width: 100%;
+
+
+//     @media (width <=$breakpoint-sm) {
+//         text-align: start;
+//     }
+
+//     @media (width <=$breakpoint-xs) {
+//         text-align: center;
+//     }
+// }
+
+// .swapIcon {
+//     background-color: transparent;
+//     border: none;
+//     cursor: pointer;
+
+//     @media (width <=$breakpoint-xs) {
+//         & svg {
+//             transform: rotate(90deg);
+//         }
+//     }
+// }
